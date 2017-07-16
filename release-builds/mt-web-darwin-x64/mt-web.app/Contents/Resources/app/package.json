@@ -1,0 +1,28 @@
+{
+  "name": "mt-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "package-mac": "electron-packager . --overwrite --platform=darwin --arch=x64 --prune=true --out=release-builds",
+    "package-win": "electron-packager . --overwrite --asar=true --platform=win32 --arch=ia32 --icon=assets/icons/win/icon.ico --prune=true --out=release-builds --version-string.CompanyName=CE --version-string.FileDescription=CE --version-string.ProductName=\"MT-Web\"",
+    "package-linux" : "electron-packager . --overwrite --platform=linux --arch=x64 --icon=assets/icons/png/1024x1024.png --prune=true --out=release-builds"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Quebert90/MT-Web.git"
+  },
+  "author": "Dominik W.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Quebert90/MT-Web/issues"
+  },
+  "homepage": "https://github.com/Quebert90/MT-Web#readme",
+  "devDependencies": {
+    "electron-packager": "^8.7.2",
+    "electron-prebuilt": "^1.4.13",
+    "electron-prompt": "^0.2.0",
+    "electron-settings": "^3.1.1"
+  }
+}
