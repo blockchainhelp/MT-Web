@@ -1,0 +1,23 @@
+{
+  "name": "mt-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Quebert90/MT-Web.git"
+  },
+  "author": "Dominik W.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Quebert90/MT-Web/issues"
+  },
+  "homepage": "https://github.com/Quebert90/MT-Web#readme",
+  "devDependencies": {
+    "electron-prebuilt": "^1.4.13",
+    "electron-settings": "^3.1.1"
+  }
+}
